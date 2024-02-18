@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Tracker</title>
+    <title>AnimeHub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Anime Tracker</h1>
+        <h1>AnimeHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">Favorites</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section id="anime-list">
-            <h2>Upcoming Anime</h2>
-            <ul id="anime-items"></ul>
+        <section id="featured-anime">
+            <h2>Featured Anime</h2>
+            <div id="anime-list">
+                <!-- Anime cards will be dynamically added here -->
+            </div>
         </section>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
+
